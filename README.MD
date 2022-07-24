@@ -10,4 +10,4 @@
 
 5.click on the invitation link and join the community! 
 
-###NOW YOU ARE PART OF COLLAB-COMMUNITY 🎉
+### NOW YOU ARE PART OF COLLAB-COMMUNITY 🎉
