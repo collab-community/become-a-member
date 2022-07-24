@@ -9,7 +9,7 @@ body:
     attributes:
       label: Name
       description: Insert your name here
-      placeholder: Krish Gupta
+      placeholder: Adarsh Jaiswal
     validations:
       required: true
   - type: input
@@ -17,7 +17,7 @@ body:
     attributes:
       label: Discord Username (if applicable)
       description: Insert your Discord username here
-      placeholder: "Krish from Cerulean Coders#6241"
+      placeholder: "text_adarsh#3904"
     validations:
       required: false
   - type: textarea
