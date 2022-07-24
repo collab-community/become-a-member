@@ -24,7 +24,7 @@ body:
     validations:
       required: false
   - type: input
-    id: discordname
+    id: twittername
     attributes:
       label: Twiiter username (if applicable)
       description: Insert your Twitter username here
