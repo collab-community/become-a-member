@@ -14,6 +14,6 @@ jobs:
           organization: collab-community
           label: invite me to the organisation
           repo-token: ${{ secrets.GITHUB_TOKEN }}
-          comment: '<h1>Hey there buddy 👋</h1> <br> You have been invited to <a href="https://github.com/collab-community>Collab Comunity</a>! 🚀 You can either accept it by going to <a href="https://github.com/collab-community">the organisation page</a> or checking <a href="https://github.com/settings/emails">your primary github email inbox</a>.'
+          comment: '<h1>Hey there buddy 👋</h1> <br> You have been invited to <a href="https://github.com/collab-community">Collab Comunity</a>! 🚀 You can either accept it by going to <a href="https://github.com/collab-community">the organisation page</a> or checking <a href="https://github.com/settings/emails">your primary github email inbox</a>.'
         env:
           INVITE_TOKEN: ${{ secrets.INVITE_TOKEN }}
