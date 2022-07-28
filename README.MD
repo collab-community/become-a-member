@@ -6,7 +6,7 @@
 
 3. And submit the issue
 
-4. For now, Our moderators will send you an invite link as we are having a issue doing it automatically, but in a bit it will be completly automatic when you create a issue and instant.
+4. Once you have created a issue, a Github action will automatically send you a invite, which you are supposed to accept.
 
 5. Click on the invitation link and join the community!
 
