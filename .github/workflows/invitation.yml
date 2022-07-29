@@ -1,0 +1,18 @@
+on:
+  issues:
+    types: [labeled]
+
+jobs:
+  automate_invite:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Invite on label
+        uses: vj-abigo/invite-on-label@v1.3
+        with:
+          organization: collab-community
+          label: invite me to the organization
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          comment: '<h1>Hey there buddy 👋</h1> <br> You have been invited to <a href="https://github.com/collab-community">Collab Community</a>! 🚀 You can either accept it by going to <a href="https://github.com/collab-community">the organisation page</a> or checking <a href="https://github.com/settings/emails">your primary github email inbox</a>.'
+        
+        env:
+          INVITE_TOKEN: ${{ secrets.INVITE_TOKEN }}
