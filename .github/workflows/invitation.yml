@@ -10,7 +10,7 @@ jobs:
         uses: vj-abigo/invite-on-label@v1.3
         with:
           organization: collab-community
-          label: invite me to the organization
+          label: invite me to the organisation
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           comment: '<h1>Hey there buddy 👋</h1> <br> You have been invited to <a href="https://github.com/collab-community">Collab Community</a>! 🚀 You can either accept it by going to <a href="https://github.com/collab-community">the organisation page</a> or checking <a href="https://github.com/settings/emails">your primary github email inbox</a>. We request you to kindly make the organization visible on your profile, by changing the visibility settings for your name on <a>https://github.com/orgs/collab-community/people</a>.'
         env:
